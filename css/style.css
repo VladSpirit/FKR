@@ -1,0 +1,471 @@
+* {
+	box-sizing: border-box;
+}
+html {
+		font-size: 10px;
+}
+body { 	font-family: 'Roboto', sans-serif;
+		margin: 0;
+		padding: 0;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+
+/* Authorization */
+.authorization {
+	height: 100vh;
+  	align-items: center;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+.authorization img {
+	padding-bottom: 4%;
+}
+.auth {
+	padding: 0.7% 1.5% 0.7% 1.5%;
+	width: 514px;
+	height: 305px;
+	background-color: #fff;
+	background: #ECEEEF;
+	border-radius: 5px;
+	margin-bottom: 20vh;
+}
+.title_auth {
+	font-size: 4rem;
+	font-weight: 300;
+	color: #373A3C;
+
+}
+.title_input {
+	color: #373A3C;
+	padding-top: 4.5%;
+	padding-bottom: 2%;
+	font-size: 1.6rem;
+
+}
+.login_in {
+	width: 100%;
+	padding: 2% 3%;
+	border: 1px solid #CCCCCC;
+	box-sizing: border-box;
+	border-radius: 4px;
+	font-size: 1.6rem;
+	color: #373A3C;
+}
+.password_in {
+	width: 100%;
+	padding: 2% 3%;
+	border: 1px solid #CCCCCC;
+	box-sizing: border-box;
+	border-radius: 4px;
+	font-size: 1.6rem;
+	color: #373A3C;
+}
+.btn_auth {
+	margin: 0 auto;
+	display: block;
+	color: #fff;
+	border: none;
+	background: #0275D8;
+	border-radius: 4px;
+	padding: 2% 5%;
+	margin-top: 2.5%;
+	font-size: 1.8rem;
+}
+
+
+/* Control Panel */
+.control_panel_header {
+	padding-top: 2%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	color: #373A3C;
+}
+.admin_panel {
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	background: #DEECFF;
+	border: 1px solid #E5E5E5;
+	border-radius: 4px;
+
+
+}
+.admin_panel p {
+	font-weight: 500;
+	font-size: 1.8rem;
+}
+
+
+.logo_title {
+	position: relative;
+	
+}
+.logo_title img {
+	left: -70px;
+	position: absolute;
+}
+.logo_title_head {
+	font-size: 4.2rem;
+	font-weight: 300;
+}
+.section_name {
+	font-size: 2.4rem;
+	font-weight: 500;
+}
+.section_name:after {
+	content: "";
+	display: block;
+	width: 556px;
+	height: 0;
+	border: 2px solid #FF9F48;
+}
+
+.personal_cabinet {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	background: #DEECFF;
+	border: 1px solid #E5E5E5;
+	border-radius: 4px;
+	font-size: 1.8rem;
+	font-weight: 500;
+	
+}
+
+/* Departments */
+
+
+.departments {
+	padding-top: 4%;
+	color: #373A3C;
+	flex-wrap: wrap;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+  
+}
+.department_item {
+	margin-right: 4.1%;
+	margin-left: 4.1%;
+	margin-bottom: 3.5%;
+	background: #DEECFF;
+	border: 1px solid #E5E5E5;
+	border-radius: 4px;
+	width: 14.6%;
+
+}
+.department_item img {
+	width: 100%;
+}
+.department_name {
+	padding: 3% 5% 3% 5%;
+	font-weight: 500;
+	font-size: 1.8rem;
+}
+
+.department_des {
+	padding: 0 5% 10% 5%;
+	font-size: 1.6rem;
+}
+
+/* Personal account 
+header */
+.header_lk {
+	padding-left: 2%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-start;
+	background: #0275D8;
+	border: 1px solid #0275D8;
+	box-sizing: border-box;
+}
+
+.name_header_lk {
+	width: 15%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	font-size: 1.8rem;
+	color: #fff;
+	background: #0263B6;
+	border-radius: 4px;
+}
+
+/* Personal account 
+Personal information */
+.additional_information {
+	position: relative;
+	margin: 0 auto;
+	width: 95%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	margin-top: 6%;
+	border: 2px solid #C4C4C4;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+.title_inf {
+
+	font-weight: 500;
+	font-size: 2rem;
+}
+.personal_inf {
+
+	font-size: 1.6rem;
+	color: #373A3C;
+}
+.item_inf {
+
+	width: 30%;
+	margin: 0 auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+.header_additional_information {
+	font-size: 1.6rem;
+	color: #606367;
+	position: absolute;
+	top: -16%;
+	left: 2.5%;
+	padding: 20px 40px;
+	background: #fff;
+	border: 1px solid #C4C4C4;
+	border-radius: 4px;
+}
+.main_information {
+	position: relative;
+	margin: 0 auto;
+	width: 95%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	margin-top: 6%;
+	border: 2px solid #C4C4C4;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+.header_main_information {
+	font-size: 1.6rem;
+	color: #606367;
+	position: absolute;
+	top: -8%;
+	left: 2.5%;
+	padding: 20px 40px;
+	background: #fff;
+	border: 1px solid #C4C4C4;
+	border-radius: 4px;
+}
+
+.change_password_btn a {
+	font-size: 18px;
+	text-decoration: none;
+	margin-right: 2.5%;
+	padding: 0.4% 1.5%;
+	cursor: pointer;
+	border: none;
+	color: #fff;
+	background: #0275D8;
+	border-radius: 4px;
+}
+.change_password_btn {
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+}
+.pop_up_window {
+    margin: 0 auto;
+    top: 25%;
+	position: relative;
+
+	background: #fff;
+	width: 846px;
+	height: 289px;
+
+
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    display: none;
+    background-color: rgba(22,22,22,0.5); /* complimenting your modal colors */
+}
+#container:target {
+    visibility: visible;
+    display: block;
+}
+
+
+.save_password_btn {
+	top: 75%;
+	right: 10%;
+	position: absolute;
+	font-size: 1.8rem;
+	padding: 0.8% 2%;
+	text-decoration: none;
+	color: #fff;
+	background: #0275D8;
+	border-radius: 4px;
+	cursor: pointer;
+	border: none;
+}
+.save_password_btn a {
+
+	font-size: 1.8rem;
+
+}
+.old_pass {
+	padding-top: 8%;
+}
+.old_pass,
+.new_pass,
+.repeat_new_pass {
+	margin: 0 auto;
+	margin-top: 3%;
+	width: 80%;
+	font-size: 2rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.old_pass_in,
+.new_pass_in,
+.repeat_new_pass_in {
+	width: 70%;
+	border: 1px solid #C4C4C4;
+	border-radius: 4px;
+}
+
+/* Add users */
+.line_add_users {
+	padding: 0.8% 0.8% 0.8% 3.5%; 
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	font-size: 1.6rem;
+	background: #E3E3E3;
+}
+.line_add_users p {
+	padding-left: 3.5%;
+}
+
+.add_users_menu {
+	padding: 1.5% 1% 2% 3.4%;
+	width: 20%;
+	height: 100%;
+	border-right: 1px solid #E7E7E7;
+}
+.add_users_menu_users {
+	font-weight: bold;
+	font-size: 2rem;
+	color: #0275D8;
+}
+.add_users_menu_position {
+	padding-top: 12%;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.user_add {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.main_add_user {
+	position: relative;
+	width: 80%;
+}
+
+.add_user_btn {
+	float: right;
+	font-size: 1.8rem;
+	padding: 0.5% 1.5%;
+	text-decoration: none;
+	color: #fff;
+	background: #0275D8;
+	border-radius: 4px;
+}
+
+.login_data {
+	margin: 0 auto;
+	width: 90%;
+	margin-top: 3%;
+	padding-top: 2%;
+	padding-bottom: 3%;
+	border: 2px solid #C4C4C4;
+	border-radius: 4px;
+}
+
+.header_login_data {
+	font-size: 1.6rem;
+	color: #606367;
+	position: absolute;
+	top: 10%;
+	left: 7%;
+	padding: 20px 40px;
+	background: #fff;
+	border: 1px solid #C4C4C4;
+	border-radius: 4px;
+}
+.item_inf span {
+	color: #DF3B3B;
+}
